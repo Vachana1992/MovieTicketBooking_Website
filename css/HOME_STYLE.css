@@ -1,0 +1,156 @@
+/*Arya Sreekumar
+    2020-03-21*/
+header{
+	background-color:black;
+	padding-bottom:8px;
+}
+
+.header a.active {
+  background-color: #666;
+  color: white;
+  padding-bottom:6px;
+}
+.header a.right {
+  float: center-right;
+}
+.header input.center {
+  float: center;
+ 
+}
+-webkit-input.center {
+   text-align: center;
+}
+
+/* Style for body specifies a background color */
+body {
+	background-image: linear-gradient(#950740, black)
+}
+body .head{
+		 }
+body h1{color:white; font-family:"georgian" ;font-size:50px;
+background-color:black;
+border-radius:25px;
+  opacity:.9;
+  font-style:oblique;
+}
+
+.navigation{
+	background-color:#950740;
+	font-size:15px;
+	color:black;
+	opacity:.9;
+}
+
+.navigation a{
+	color:white;
+	font-style:italic;
+	padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+body div article h3,h4{
+	color:white;
+}
+body div article p{
+	color:white;
+}
+.navigation a:hover {
+  background-color: black;
+}
+
+.sidenav {
+  width: 130px;
+  top: 20px;
+  left: 10px;
+  background: black;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	clear: left;
+	font-family: Times new roman, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color:#183440;
+	color:white;
+	
+	padding: 0.5%;
+	text-decoration: none;
+}
+
+#nav a {
+  
+   color: white;
+   text-decoration: none;
+    color:white;
+	font-style:italic;
+	padding: 14px 25px;
+	text-align: center;
+	font-size:15px;
+	display: inline-block;
+}
+.btn{
+	background-color: #585858;
+  color: black;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.btn:hover{
+	color:#c0c0c0;
+}
+textarea{
+	width: 90%;
+  padding: 15px;
+  margin: 5px 0 12px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 150px;
+}
+
+@media only screen and (max-width:1500px)
+{
+.row{display:none;}
+.column1{display:none;}
+.column2{display:none;}
+}
+
+.row {
+  display: flex;
+  padding:10px 5px;
+}
+
+.row .column2 p{
+	border-style:solid;
+	border-color:black;
+	border-width:2px;
+	background-color:#e8e8e8;
+	text-align:center;
+}
+
+
+.column1 {
+	flex: 80%;
+	height: 300px;
+	padding:10px 5px;
+	column-gap:40px;
+}
+
+.column2{
+	flex: 20%;
+	height: 300px;
+	padding:10px 5px;
+}
+ 
+
+
+
+

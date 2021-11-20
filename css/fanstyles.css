@@ -1,0 +1,94 @@
+
+
+/* Style for the header element */
+header {
+	font-family: Times new roman, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: black;
+	color: #FFFFFF;
+	padding: 0.5%;
+}
+
+#b{display:none;}
+
+/* Style for the class right in header element */
+.right {
+  float: right;
+  font-size:20px;
+  color:white;
+}
+/* Style for the class right in header element */
+.center {
+float: center;
+width:60%;
+padding:2px;
+}
+
+#head{
+		text-align:center;
+	    color:white; font-family:"georgian" ;font-size:20px;
+		background-color:black;
+		border-radius:25px;
+	    opacity:.9;
+	    font-style:oblique;
+	    text-align:center;
+}
+.top{
+	max-width:100%;
+}
+body{
+	background-color:#950740;
+}
+
+
+}
+.side{
+	float:right;
+}
+
+.nav{
+	overflow:hidden;
+	background-color=#e9e9e9;
+	
+}
+
+
+#nav a {
+   color: white;
+   text-decoration: none;
+    color:white;
+	font-style:italic;
+	padding: 14px 25px;
+	text-align: center;
+	font-size:15px;
+	display: inline-block;
+}
+/* Change the color of links on hover */
+
+#nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	clear: left;
+	font-family: Times new roman, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #183440;
+	color: #FFFFFF;
+	padding: 0.5%;
+}
+
+
+.mobile{
+	display:inline;
+}
+
+@media only screen and (min-width:768px)
+{
+	#b{display:inline;
+	}
+

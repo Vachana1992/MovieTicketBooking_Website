@@ -1,0 +1,203 @@
+
+
+/* Style for the header element */
+header {
+	font-family: Times new roman, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: black;
+	color: #FFFFFF;
+	
+}
+
+#b{
+	display:none;
+}
+
+/* Style for the div head element */
+#head{
+	color:white; font-family:"georgian" ;font-size:20px;
+	 background-color:black;
+	 border-radius:25px;
+	  opacity:.9;
+	  font-style:oblique;
+	 text-align:center;
+}
+/* Style for the class right in header element */
+.right  {
+  float: right;
+  font-size:20px;
+  color:white;
+}
+/* Style for the class center in header element */
+.center {
+float: center;
+width:60%;
+padding:2px;
+}
+
+-webkit-input.center {
+   text-align: center;
+}
+/* Style for the div im element */
+#im{
+	background-color:#950740;
+	color:white;
+	float: center;
+	padding: 1%;
+	max-width:100%;
+	margin-left: 1em;
+	margin-right:1em;
+	
+}
+
+#im h1{
+	text-align:center;
+}
+
+
+/* Style for the  image */
+img{
+	max-width:100%;
+	
+}
+
+.s{
+	max-width:100%;
+	padding-left:14%;}
+
+.flot {
+  float: left;
+}
+
+article p h3{text-align:center;}
+
+
+
+/* Style for the h3 heading */
+#im h3{
+	color:black;
+	font-family:  Arial,Times new roman, sans-serif;
+	text-align:center;
+}
+
+
+
+/* Style for the body */
+body {
+	background-image: linear-gradient(#950740, black);
+}
+
+
+/* Style for the main division */
+main {
+	display: block;
+	margin: 1%;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+	box-shadow: .5em .5em .5em #404040;
+	float: left;
+	width: 65%;
+}
+
+
+/* Style for the article element  */
+article{
+	background-color:white;
+	border-radius:3em;
+	color:#000000;
+	margin-top:1%;
+	padding:2%;
+}
+
+
+
+
+/* Style for the aside for mobile view   */
+aside{
+	display:none;
+}
+/* Style for the date element  */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style for the list elements  */
+.color{
+	color:white;
+}
+
+/* Style for the footer element  */
+footer {
+	font-size: .70em;
+	text-align: center;
+	clear: left;
+	font-family: Times new roman, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color:#183440;
+	color:white;
+	
+	padding: 0.5%;
+	text-decoration: none;
+}
+
+#nav a {
+  
+   color: white;
+   text-decoration: none;
+    color:white;
+	font-style:italic;
+	padding: 14px 25px;
+	text-align: center;
+	font-size:15px;
+	display: inline-block;
+}
+
+/* Change the color of links on hover */
+#nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.mobile{
+	display: inline;
+}
+
+
+
+@media only screen and (min-width:768px)
+{
+	#b{display:inline;
+	}
+	
+	aside{
+	display:block;
+	background-color:black;
+	border-radius:3em;
+	width:25%;
+	float:right;
+	padding:2%;
+	margin-top:1%;
+	color:#FFFFFF;
+   }
+   
+   
+}
+
+/* Style for the container element */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1em;
+}
+
+
+
+
+
+
+ 
+

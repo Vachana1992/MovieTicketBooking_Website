@@ -1,0 +1,107 @@
+body {
+background-image: linear-gradient(#950740, black)
+	
+}
+input[name="search"] {
+    width:90%;
+	height:10px;
+	text-align: center;
+	
+}
+.y input[type="query"] {
+    width:81.5%;
+	height:100px;
+	text-align: center;
+	
+}
+#nav a {
+  
+   color: white;
+   text-decoration: none;
+    color:white;
+	font-style:italic;
+	padding: 14px 25px;
+	text-align: center;
+	font-size:15px;
+	display: inline-block;
+}
+.y input[type="firstname"] {
+    width:40%;
+	height:20px;
+	text-align: center;
+	
+}
+.y input[type="lastname"] {
+    width:40%;
+	height:20px;
+	text-align: center;
+	
+}
+.y input[type="email"] {
+    width:40%;
+	height:20px;
+	text-align: center;
+}
+.y input[type="phno"] {
+    width:40%;
+	height:20px;
+	text-align: center;
+}
+footer {
+	font-size: .70em;
+	text-align: center;
+	clear: left;
+	font-family: Times new roman, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color:#183440;
+	color:white;
+	
+	padding: 0.5%;
+	text-decoration: none;
+}
+
+body h1{
+	color:white; font-family:"georgian" ;font-size:50px;
+	background-color:black;
+	border-radius:25px;
+	opacity:.9;
+	font-style:oblique;
+}
+body h2{
+	color:white; font-family:"georgian" ;font-size:30px;
+	background-color:black;
+	
+	opacity:.9;
+	font-style:oblique;
+}
+}
+.x{
+	background-image: linear-gradient(#950740, black);
+	
+}
+.x input{
+	width:90%;
+	height:200px;
+	font-size:15px;
+	text-align:center;
+}
+.y{
+	background-image: linear-gradient(#950740, black);
+	width:60%;
+}
+.y select{
+	width:81.75%;
+	height:20px;
+	text-align: center;
+}
+.z p{
+	background:black;
+	text-align: center;
+	width:55%;
+	height:30px;
+	border-radius:25px;
+}
+.z{
+	background-image: linear-gradient(#950740, black);
+	width:60%;
+}

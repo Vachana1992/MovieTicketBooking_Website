@@ -1,0 +1,158 @@
+/* Chippy Baby
+    2020-03-21 */
+
+/* Style rules for the body element */
+body {
+	height:100%;
+	width:100%;
+	background-color:#950740;
+}
+
+/* Style rules for the header element */
+header {
+	left:0%;
+	top:0%;
+	height:10%;
+	width:100%;
+	position: absolute;
+	background-color:black;
+}
+
+/* Style rules for the main element */
+main {
+	height:70%;
+	width:100%;
+	left:0%;
+	top:10%;
+	background:linear-gradient(#950740,#000000);
+	position: absolute;
+}
+
+/* Style rules for the footer element */
+footer {
+	height:20%;
+	width:100%;
+	top:80%;
+	background-color:#183440;
+	position:absolute;
+	left:0%;
+	text-align:center;
+	font-family: Times new roman, Arial, sans-serif;
+	font-size: .70em;
+}
+
+/* Style rules for the anchor element */
+a {
+	color:#FFFFFF;
+	font-size:1.1em;
+}
+
+/* Style rules for the label element */
+label {
+	color:white;
+}
+
+/* Style rules for the span element */
+span {
+	color:red;
+}
+
+/* Style rules for the image element */
+img {
+	height:50%;
+}
+
+/* Style rules for the class logo_div */
+.logo_div {
+	background-color:black;
+	text-align:left;
+	height:100%;
+	width:50%;
+	float:left;
+}
+
+/* Style rules for the class nav_div */
+.nav_div {
+	background-color:black;
+	text-align:right;
+	height:100%;
+	width:50%;
+	float:right;
+}
+
+/* Style rules for the class text */
+.text {
+	height:55%;
+	width:60%;
+}
+
+/* Style rules for the placeholder within the class logo_div */
+.text::placeholder{
+	font-family: Calibri;
+	font-size:1.1em;
+}
+
+/* Style rules for the class form */
+.form {
+	text-align:center;
+	background-color:#000000;
+	border-style:ridge;
+	border-color:#950740;
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Style rules for the class title_div */
+.title_div {
+	width:100%;
+	text-align:center;
+}
+
+/* Style rules for h1 element within the class title_div */
+.title_div h1{
+	color:white;
+}
+
+/* Style rules for the class footer */
+.footer {
+	color: white;
+	text-decoration: none;
+	color:white;
+	font-style:italic;
+	padding: 14px 25px;
+	text-align: center;
+	font-size:15px;
+	display: inline-block;
+}
+
+/* Style rules for the id login_form */
+#login_form {
+	 width:100%;
+	 height:70%;
+}
+
+
+/* Style rules for pseudo classes */
+
+a:link { 
+	color:#ffffff;
+}
+
+
+a:visited { 
+	color:gray;
+}
+
+
+a:hover { 
+	color:pink;
+}
+
+
+a:active { 
+	color:orange;
+}

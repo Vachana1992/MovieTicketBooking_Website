@@ -1,0 +1,116 @@
+/*Arya Sreekumar
+    2020-03-21*/
+header{
+	background-color:black;
+	padding-bottom:8px;
+}
+body {
+	background-image: linear-gradient(#950740, black)
+}
+body h1{color:white; font-family:"georgian" ;font-size:50px;
+background-color:black;
+border-radius:25px;
+  opacity:.9;
+  font-style:oblique;
+}
+img {
+  border-radius: 50%;
+  width:30%;
+  height:30%;
+}
+h3{
+	font-size:100%;
+	color:white;
+	display:inline;
+}
+.paragraph1{
+	  float:left;
+  background-color:black;
+  display: flex;
+  width:25%;
+  margin-left:2%;
+  	color:white; 
+	font-family:"georgian" ;
+	font-size:24px;
+	border-radius:25px;
+	opacity:.9;
+	font-style:oblique;
+	display:inline;
+}
+.paragraph2{
+	float:left;
+  background-color:black;
+  display: flex;
+  width:100%;
+  margin-left:2%;
+  	color:white; 
+	font-family:"georgian" ;
+	font-size:24px;
+	border-radius:25px;
+	opacity:.9;
+	font-style:oblique;
+	display:inline;
+}
+
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	clear: left;
+	font-family: Times new roman, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color:#183440;
+	color:white;
+	
+	padding: 0.5%;
+	text-decoration: none;
+}
+#nav a {
+  
+   color: white;
+   text-decoration: none;
+    color:white;
+	font-style:italic;
+	padding: 14px 25px;
+	text-align: center;
+	font-size:15px;
+	display: inline-block;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+.overlay {
+  position: absolute;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 50%;
+  height:0;
+  transition: .5s ease;
+  border-radius:50%;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 55%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

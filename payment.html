@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--Chippy Baby
+    2020-03-23-->
+<html lang="en" style="overflow:hidden;">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Entertainment Now">
+		<meta name="keywords" content="HTML,CSS,JavaScript">
+		<meta name="author" content="Chippy Baby">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<title>Payment</title>
+		<link rel="stylesheet" type="text/css" href="css/project.css">
+		<link rel="stylesheet" href="css/lightbox.min.css">
+		<link href="css/monthpicker.css" rel="stylesheet" type="text/css">
+		<script src="js/lightbox-plus-jquery.min.js"></script>   	
+	</head>
+
+	<body>
+		<header>
+			<div class="logo_div">
+				<br>&nbsp;
+				<a href="images/logo.png" data-lightbox="example-1"><img src="images/logo.png" alt="Logo" /></a>
+			</div>
+			<div class="nav_div">
+				<br>
+				<a href="HomePage1.html"><img src="images/home.png" alt="Home"/></a>&nbsp;
+			</div>
+		</header>
+		
+		<main>
+			<div class="title_div">
+				<h1><i><b>------Entertainment Now------</b></i></h1>
+			</div>
+			
+			<div class="form">
+				<form id="payment_form" style="width:100%;height:100%;" action="payment_successful.html" method="get" autocomplete="off">
+					<div style="float:right;width:70%;text-align:left;height:90%;">
+						<br>
+						<h3 style="color:#FFFFFF;font-size:1.2em;">Payment Information</h3>
+						<div style="width:100%;height:10%;"><input id="name" class="text" type="text" placeholder="Name on Card"><span id="name_error">*</span></div>
+						<div style="width:100%;height:10%;"><input id="card_no" class="text" type="text" placeholder="Credit/Debit Card Number"><span id="card_no_error">*</span></div>
+						<div style="width:100%;height:10%;"><input id="exp" class="text" type="text" placeholder="Expiry Date"><span id="exp_error"> *</span></div>
+						<div style="height:1%;"></div>
+						<div style="width:100%;height:10%;"><input id="cvc" class="text" type="text" placeholder="CVC/CVV"><span id="cvc_error">*</span></div>
+						<div style="width:60%;text-align:right;"><input type="button" id="payment_btn" value="Pay"/></div>
+					</div>
+				</form>
+			</div>
+		</main>
+		
+		<footer>
+			<a class="footer" href="help.html" >Help and Support</a>
+			<a class="footer" href="faq.html">FAQ's</a>
+			<a class="footer" href="AboutUs.html">About Us</a>
+			<p style="color:white;">Copyright 2020 &#169; Bigtree Entertainment Pvt. Ltd. All Rights Reserved.<br><br>
+			The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.</p>
+			<p style="color:white;">Designed by Chippy Baby. C0777183</p>
+		</footer>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="js/monthpicker.min.js"></script>
+		<script>
+		$('#exp').Monthpicker();
+		jQuery('#startDate').Monthpicker({
+			onSelect: function () {
+				jQuery('#endDate').Monthpicker('option', { minValue: $('#startDate').val() });
+			}
+		});
+		jQuery('#endDate').Monthpicker({
+			onSelect: function () {
+				jQuery('#startDate').Monthpicker('option', { maxValue: $('#endDate').val() });
+			}
+		});
+		</script>
+		<script src="js/payment.js"></script>
+	</body>
+</html>
+
+

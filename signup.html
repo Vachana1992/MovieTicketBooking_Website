@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--Chippy Baby
+    2020-03-21-->
+<html lang="en" style="overflow: hidden;">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Entertainment Now">
+		<meta name="keywords" content="HTML,CSS,JavaScript">
+		<meta name="author" content="Chippy Baby">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<title>Sign Up</title>
+		<link rel="stylesheet" href="css/project.css">
+		<link rel="stylesheet" href="css/lightbox.min.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="js/lightbox-plus-jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+			jQuery(function($){ // wait until the DOM is ready
+				$("#datepicker").datepicker();
+			});
+		</script>
+		<script src="js/signup.js"></script>
+		
+	</head>
+	<body>
+		<header>
+			<div class="logo_div">
+				<br>&nbsp;
+				<a href="images/logo.png" data-lightbox="example-1"><img src="images/logo.png" alt="Logo" /></a>
+			</div>
+			<div class="nav_div">
+				<br>
+				<a href="HomePage1.html"><img src="images/home.png" alt="Home"/></a>&nbsp;
+			</div>
+		</header>
+		
+		<main>
+			<div class="title_div">
+				<h1><i><b>------Entertainment Now------</b></i></h1>
+			</div>
+			
+			<div class="form">
+				<form id="signup_form" style="width:100%;height:100%;" action="signup_successful.html" method="get" autocomplete="off">
+					<div style="width:37%;float:left;height:100%;text-align:right;">
+						<br><br>
+						<div style="width:100%;height:10%;"><label>Name </label></div>
+						<div style="width:100%;height:10%;"><label>Email  </label></div>
+						<div style="width:100%;height:10%;"><label>Phone Number</label></div>
+						<div style="width:100%;height:10%;"><label>Date of Birth</label></div>
+						<div style="width:100%;height:10%;"><label>Password  </label></div>
+						<div style="width:100%;height:10%;"><label>Confirm Password  </label></div>
+					</div>
+					
+					<div style="width:60%;float:right;height:100%;text-align:left;">
+						<br><br>
+						<div style="width:100%;height:10%;"><input id="name" class="text" type="text"><span id="name_error">*</span></div>
+						<div style="width:100%;height:10%;"><input id="email" class="text" type="text"><span id="email_error">*</span></div>
+						<div style="width:100%;height:10%;"><input id="phone" class="text" type="text"><span id="phone_error">*</span></div>
+						<div style="width:100%;height:10%;"><input id="datepicker" class="text" type="text"><span id="dob_error">*</span></div>
+						<div style="width:100%;height:10%;"><input id="password1" class="text" type="password"><span id="password1_error">*</span></div>
+						<div style="width:100%;height:10%;"><input id="password2" class="text" type="password"><span id="password2_error">*</span></div>
+						<div style="width:60%;height:10%;text-align:right;"><input type="button" id="create_btn" value="Create Account"></div>
+						<br>	
+					</div>
+				</form>
+			</div>
+		</main>
+		
+		<footer>
+			<a class="footer" href="help.html" >Help and Support</a>
+			<a class="footer" href="faq.html">FAQ's</a>
+			<a class="footer" href="AboutUs.html">About Us</a>
+			<p style="color:white;">Copyright 2020 &#169; Bigtree Entertainment Pvt. Ltd. All Rights Reserved.<br><br>
+			The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.</p>
+			<p style="color:white;">Designed by Chippy Baby. C0777183</p>
+		</footer>
+</body>

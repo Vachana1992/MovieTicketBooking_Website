@@ -1,0 +1,212 @@
+/*Arya Sreekumar
+    2020-03-21*/
+	
+/*style for body */
+body {
+	background-image: linear-gradient(#950740, black)
+}
+/*style for header */
+header{
+	background-color:black;
+}
+
+/*style for h1 in body */
+body h1{color:white; font-family:"georgian" ;font-size:50px;
+background-color:black;
+border-radius:25px;
+  opacity:.9;
+  font-style:oblique;
+}
+
+/*style for heading type 2 in body */
+body h2{
+	color:white; 
+	font-family:"georgian" ;
+	font-size:24px;
+	background-color:black;
+	border-radius:25px;
+	opacity:.9;
+	font-style:oblique;
+	
+}
+/*style for input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/*style for icon */
+.icon {
+  padding: 10px;
+  background: #950740;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/*style for input field */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+/*style for theatre */
+.theatre{
+	float:left;
+	background-color:black;
+	border-radius:28px;
+}
+
+/*style for heading in theatre */
+.theatre h2{text-align:center;}
+
+/*style for input button */
+.input-button{
+  width: 100%;
+  margin-bottom: 15px;
+  color:white;
+  background-color:#950740;
+  font-size:18px;
+}
+
+/*common style for navigation */
+.navigation{
+	background-color:#950740;
+	font-size:15px;
+	color:black;
+	opacity:.9;
+}
+
+/*style for navigation */
+.navigation a{
+	color:white;
+	font-style:italic;
+	padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*style for side  paragraph*/
+.side p{
+  float:left;
+  background-color:black;
+  display: flex;
+  width:80%;
+  margin-left:2%;
+  	color:white; 
+	font-family:"georgian" ;
+	font-size:24px;
+	border-radius:25px;
+	opacity:.9;
+	font-style:oblique;
+}
+
+/*style for quote*/
+.Quote{
+	background-image: linear-gradient(#950740, black);
+	border-radius:28px;
+	float:right;
+}
+
+/*display quote inline*/
+.Quote a{
+	display:inline;
+}
+
+/*navigation movie style common*/
+.navigationMovie{
+	background-color:#950740;
+	font-size:15px;
+	color:black;
+	opacity:.9;
+}
+
+/*Movie navigation style*/
+.navigationMovie a{
+	color:white;
+	font-style:italic;
+	padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* unvisited link */
+.navigationMovie a:link {
+  background-color:transparent;
+}
+
+/* visited link */
+.navigationMovie a:visited {
+  background-color:black;
+}
+
+/* mouse over link*/
+.navigationMovie a:hover {
+  background-color:white;
+  color:black;
+}
+
+/* selected link */
+.navigationMovie a:active {
+  background-color:black;
+  color:white;
+}
+
+/*footer*/
+footer {
+	font-size: .70em;
+	text-align: center;
+	clear: left;
+	font-family: Times new roman, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color:#183440;
+	color:white;
+	
+	padding: 0.5%;
+	text-decoration: none;
+}
+
+/*footer navigation style*/
+#nav a {
+  
+   color: white;
+   text-decoration: none;
+    color:white;
+	font-style:italic;
+	padding: 14px 25px;
+	text-align: center;
+	font-size:15px;
+	display: inline-block;
+}
+
+/*style for polaroid */
+.polaroid{display:inline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
